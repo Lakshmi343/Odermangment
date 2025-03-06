@@ -29,7 +29,7 @@ This API provides role-based authentication and product management for the Order
 
 ## Product Management
 
-### Add Product
+###A Add Product
 **Endpoint:** `POST /api/products/add`
 
 **Request Body:**
@@ -61,7 +61,7 @@ Authorization: Bearer <token>
 }
 ```
 
-### Change Product Status
+###B Change Product Status
 **Endpoint:** `PUT /api/products/67c9d74a15b161f446778a74/status`
 
 **Request Body:**
@@ -86,7 +86,7 @@ Authorization: Bearer <token>
 }
 ```
 
-### Get Faulty Products with Last Updated Details
+###C Get Faulty Products with Last Updated Details
 **Endpoint:** `GET /api/products/faulty`
 
 **Response:**
@@ -145,7 +145,7 @@ Authorization: Bearer <token>
 }
 ```
 
-### Get All Orders with Details
+###D Get All Orders with Details
 **Endpoint:** `GET /api/orders`
 
 **Response:**
@@ -182,7 +182,7 @@ Authorization: Bearer <token>
 }
 ```
 
-### Get Most Ordered Products (Descending Order)
+###E Get Most Ordered Products (Descending Order)
 **Endpoint:** `GET /api/orders/most-ordered`
 
 **Response:**
@@ -195,7 +195,7 @@ Authorization: Bearer <token>
 ]
 ```
 
-### Get Total Orders & Revenue by Month
+###F Get Total Orders & Revenue by Month
 **Endpoint:** `GET /api/orders/revenue-by-month`
 
 **Response:**
